@@ -89,7 +89,7 @@ static bool _init_gap()
     adv_data[27] = 0x47; // Minor 1 Value
     adv_data[28] = 0x11; // Minor 2 Value
 
-    adv_data[29] = 0xD0; // Beacons TX power
+    adv_data[29] = 0xD8; // Beacons TX power
 
     adv_data_len = 30;
 

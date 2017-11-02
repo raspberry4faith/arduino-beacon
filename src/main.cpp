@@ -4,8 +4,7 @@
 
 SimpleBeacon beacon;
 
-#define LED_BUILTIN 5
-#define SLEEP_SECS 4
+#define DELAY_SECS 4
 
 void setup()
 {
@@ -23,5 +22,5 @@ void loop()
         Serial.println("Beacon failed");
     }
 
-    delay(4000);
+    delay(DELAY_SECS * 1000);
 }
